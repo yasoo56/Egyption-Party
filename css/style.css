@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+:root{
+    scroll-behavior: auto;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(#d3464663, #d3464663), url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+header .openDiv{
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.slider i:hover,.slider ul li a:hover{
+    color: #D62E33 !important;
+}
+header .slider {
+    left: 0;
+    background-color: rgb(27, 26, 24);
+    height: 100vh;
+    width: 22%;
+}
+header .slider i{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.slider ul li a{
+    transition: all 0.5s;
+}
+header .slider li{
+    padding: 25px 15px;
+}
+.deuration {
+    margin: 10% auto !important;
+    cursor: pointer;
+}
+.deuration h3{
+    background-color: #E68285;
+    color: #fff;
+    padding: 15px 0;
+    margin: 0;
+}
+.deuration p {
+    background-color: #ccc;
+    padding: 2%;
+    margin: 0;
+    display: none;
+}
+.deuration .first{
+    display: block;
+}
+.count{
+    background-image:linear-gradient(#c2444463, #c2444463), url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.count .counter{
+    padding: 5%;
+    margin: 10% auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.contact .social{
+    color: #777;
+    margin-top: 10%;
+}
+.contact .social i:hover{
+    background-color: #D62E33;
+    color: #fff;
+    border: none;
+}
+.contact .social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 1s;
+}
